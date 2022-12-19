@@ -1,0 +1,154 @@
+
+/*mobile devices*/
+@media (max-width: 768px){
+
+	/*global*/
+	.navbar-toggler{
+		z-index: 9999;
+	}
+	.rm-item {
+    width: 341px; 
+    }
+	.navbar-nav{
+		z-index: 9999;
+		position: fixed;
+	    top: 0;
+	    bottom: 0;
+	    width: 100%;
+	    background: #1b1c4ed6;
+	    height: 100vh;
+	    left: 0;
+	    display: flex;
+	    text-align: center;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.md-flex{
+		display: flex;
+		justify-content: space-around;
+	}
+	.m-block{
+		display: block;
+	}
+	/*#roadmap{
+		display: none;
+	}*/
+	.mt-center{
+		text-align: center;
+	}
+	.m-none{
+		display: none;
+	}
+	/*none*/
+	.top-menu-wrap::after, .main-menu-wrap::before, .main-menu-wrap::after,.top-menu-wrap::before,
+	.top-row::after,.top-row::before,.curve{
+		display: none;
+	}
+	/*.roadmap-wrapper .mt-5{
+		margin: 0 !important;
+	}*/
+
+	/*topbar*/
+	.user-log-reg a {
+	    margin-left: 16px;
+	    margin-right: 16px;
+	}
+	.banner-content h1{
+		font-size: 56px;
+	}
+	.banner-content h2{
+		font-size: 32px;
+	}
+	.main-menu-wrap,.top-menu-wrap{
+		background-color: transparent;
+	}
+	.bc-text {
+	    left: 30%;
+	}
+	#topbar {
+	    background-color: rgb(0 0 0 / 90%);
+	    position: fixed;
+	    width: 100%;
+	    bottom: 0;
+	    left: 0;
+	}
+	.subscribe-btn{
+		border: none;
+	}
+	footer ul{
+		margin: 0;
+		padding: 0
+	}
+	.ad-contents h3{
+		font-size: 24px;
+	}
+	.ad-contents{
+
+	}
+	.time {
+    padding-left: 55px;
+    margin-bottom: 15px;
+}
+
+}
+
+@media(max-width: 425px){
+	.bc-text {
+	    left: 11%;
+	}
+	.top-row{
+		grid-template-columns: auto;
+	}
+	.map-item{
+		margin-bottom: 22px;
+	}
+}
+
+@media (max-width: 320px){
+	.banner-content h1 {
+	    font-size: 38px;
+	}
+	.banner-content h2 {
+	    font-size: 24px;
+	}
+	.banner-content p{
+		font-size: 16px;
+	}
+	.banner-content p br{
+		display: none;
+	}
+	.bc-text{
+		left: 0;
+	}
+	#banner{
+		height: 68vh;
+	}
+	.bc-text{
+		top: 38%;
+	}
+    .ad-title1 a{
+        color: #fff;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px){
+	.banner-content h2 {
+	    font-size: 26px;
+	}
+	.banner-content h1 {
+	    font-size: 46px;
+	}
+	.banner-content p{
+		font-size: 18px;
+	}
+	.bc-text {
+	    left: 8%;
+	}
+	#banner{
+		height: 70vh;
+	}
+	.founder-item {
+    margin-bottom: 20px;
+    }
+}
+
